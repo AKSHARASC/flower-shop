@@ -1,0 +1,49 @@
+body{
+    font-family: 'Lora',serif;/*
+    Consider a more elegant font*/
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header h1{
+    color: #555;
+    margin-bottom: 30px;
+}
+.product{
+    border: 1 px solid#ccc;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 5px;/*Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product img{
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+#testimonials p{
+    font-style: italic;
+}
+footer{
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: #555;
+}
+/*Optional : Hover effect for buttons */
+#beautiful button :hover{
+    background-color: #c0392b;
+}
+/*Optional:Smooth scrolling for anchor links*/
+a[href*="#"]:hover{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}

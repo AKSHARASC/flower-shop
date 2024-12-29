@@ -1,0 +1,71 @@
+body{
+    background-color: #FFF0A5;/*
+    Light Yellow*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 20 px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    margin: 0 10 px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+main{
+    padding:  20px;
+}
+img {
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+}
+#beautiful {
+text-align: center;
+padding: 100px 0;/* Increased padding for a more spacious feel*/
+background-color: #f0f0f0;
+background-image: url(beautiful\ flowers.jpg);
+background-size: cover;
+background-position: center;
+color: #fff;/*Text color for contrast*/
+}
+#beautiful h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+#beautiful button {
+    background-color: #ff6347;
+    /*Vibrant button color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#about,#products,#testimonials,#occasions{
+    padding: 50px;/*Increased padding*/
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#about h2,
+#products h2,
+#testimonials h2,
+#occasions h2{
+color: #555;
+margin-bottom: 30px;
+}
